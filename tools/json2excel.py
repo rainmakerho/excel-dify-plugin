@@ -11,7 +11,7 @@ class Json2ExcelTool(Tool):
     def _invoke(self, tool_parameters: dict[str, Any]) -> Generator[ToolInvokeMessage]:
         json_str = tool_parameters['json_str']
         try:
-            df = pd.read_json(StringIO(json_str))
+            df = pd.read_json(StringIO(json_str), dtype=str)
         except Exception as e:
             raise Exception(f"Error reading JSON string: {str(e)}")
 

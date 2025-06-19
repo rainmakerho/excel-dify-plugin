@@ -1,7 +1,7 @@
-version: 0.0.1
+version: 0.0.2
 type: plugin
 author: qiangxinglin
-name: excel_tools
+name: excel_tools_v2
 label:
   en_US: Excel Tools
   zh_Hans: Excel工具箱
