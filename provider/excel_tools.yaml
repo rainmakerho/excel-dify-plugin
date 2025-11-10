@@ -17,4 +17,3 @@ extra:
 tools:
   - tools/excel2json.yaml
   - tools/json2excel.yaml
-  - tools/url2file.yaml

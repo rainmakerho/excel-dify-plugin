@@ -1,13 +1,11 @@
-version: 0.0.2
+version: 0.0.3
 type: plugin
 author: qiangxinglin
-name: excel_tools_v2
+name: excel_tools_v3
 label:
   en_US: Excel Tools
-  zh_Hans: Excel工具箱
 description:
   en_US: A tool to convert Excel to Json and vice versa.
-  zh_Hans: 一个将Excel转换为Json及其反向转换的工具。
 icon: icon.svg
 resource:
   memory: 268435456
